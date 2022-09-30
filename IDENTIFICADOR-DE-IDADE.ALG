@@ -7,23 +7,23 @@ Var
 
 
 Inicio
-   Escreva ("Em que ano você nasceu? ")
+   Escreva ("Em que ano vocÃª nasceu? ")
         Leia (Anonasc)
         
-   Escreva ("Em que ano nós estamos? ")
+   Escreva ("Em que ano nÃ³s estamos? ")
         Leia (Anoatual)
 
    Idade <- (Anoatual -  Anonasc)
    
    Escreval ("")
    Escreval ("")
-   Escreval ("Sua idade atual é: " ,Idade, " anos ")
+   Escreval ("Sua idade atual Ã©: " ,Idade, " anos ")
    
 
    SE Idade >= 18 entao
-      Escreval ("E você atingiu a maioridade ! ")
+      Escreval ("E vocÃª atingiu a maioridade ! ")
          Senao
-           Escreval ("E você ainda é menor de idade ! ")
+           Escreval ("E vocÃª ainda Ã© menor de idade ! ")
    FIMSE
 
 Fimalgoritmo
